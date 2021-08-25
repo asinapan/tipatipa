@@ -170,20 +170,20 @@
           <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
 
             <div class="form-group">
-              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Nom & Prénom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Nom & Prénom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" data-netlify="true">
               <div class="validate"></div>
             </div>
-            <div class="form-group" data-netlify="true">
-              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Adresse Email" data-rule="email" data-msg="Please enter a valid email">
+            <div class="form-group" >
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Adresse Email" data-rule="email" data-msg="Please enter a valid email" data-netlify="true">
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Objet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Objet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" data-netlify="true">
               <div class="validate"></div>
             </div>
 
             <div class="form-group">
-              <textarea class="form-control" name="message" id="contact-message" placeholder="Votre message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Votre message" rows="5" data-rule="required" data-msg="Please write something for us" data-netlify="true"></textarea>
               <div class="validate"></div>
             </div>
 
